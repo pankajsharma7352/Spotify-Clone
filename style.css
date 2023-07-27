@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    background-color:black;
+    height: 45px;
+    color: white;
+    align-items: center; 
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+nav ul li{
+    padding: 0 20px;
+    display: flex;
+    font-size: 25px;
+    
+}
+.logo{
+    height: 40px;
+    margin-top: 6px;
+
+}
+.logoname{
+    padding: 10px;
+    align-items: center;
+    font-size: 30px;
+}
+.container{
+    min-height: 70vh;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    color: white;
+    margin: 15px auto;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-image: url('img/music.jpg');
+}
+.songContainer{
+    margin: 20px 0;
+
+}
+.songItem{
+    background-color: white;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 40px;
+    margin: 10px;
+    
+}
+.timestamp{
+    margin: 0 10px;
+}
+.timestamp i{
+
+    cursor: pointer;
+}
+.songItem img{
+    height: 30px;
+    border-radius: 60px;
+    margin: 0px 10px;
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 80px;
+    bottom: 10;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+}
+#myProgressBar{
+    width: 140vh;
+    margin-top: 10px;
+    cursor: pointer;
+ 
+}
+.icons{
+    margin-top: 10px;
+    height: 10px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
